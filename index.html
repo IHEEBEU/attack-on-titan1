@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AOT Fandom</title>
+</head>
+<body>
+<div id="head">
+    
+    <img id ="logo-name"src="ATTACK-ON-TITAN/images/Attack_on_Titan_-_Logo.webp" alt="logo">
+    <div id="off"><img  src="ATTACK-ON-TITAN/images/register.png" id ="register" alt="register"></div>
+    <div class="login"> 
+        <input id="username" type="text" placeholder="Username">
+         <input id="password" type="password" placeholder="Password"> <br>
+         <button class="goin" onclick="check()">Login</button>
+         <button class="goin"  >
+        <a href="register/index.html"> Register</a>
+    </button>
+ </div>
+ <div class="login1"> <ul> Username </ul></div>
+
+    <div id="container">
+       <button class="navbtt"> <ul>Home</ul></button>
+        <button class="navbtt"><ul>City</ul></button>
+        <button class="navbtt" ><ul onclick="characters()">Characters</ul></button>
+        <button class="navbtt"><ul>Community</ul></button>
+    </div>
+</div>
+<div id="main">
+    <h1 id="about">ABOUT AOT</h1><p id="jj">Welcome to our website, where we delve into the captivating world of Attack on Titan. Immerse yourself in a gripping narrative that unfolds within the walls of a civilization on the brink of annihilation. In this epic anime series, humanity faces an existential threat from towering creatures known as Titans, who mercilessly devour humans without remorse. Join Eren Yeager, a determined young soldier, as he embarks on a perilous journey of discovery, revenge, and survival. Encounter a rich cast of characters, each with their own motivations and secrets, as they navigate a treacherous landscape filled with political intrigue, moral dilemmas, and mind-bending revelations. Brace yourself for heart-pounding action sequences, breathtaking animation, and a thought-provoking exploration of humanity's will to fight against overwhelming odds. Whether you're a long-time fan or new to the franchise, our website is your gateway to unraveling the mysteries and immersing yourself in the dark and thrilling world of Attack on Titan.</p>
+    <div id="image"><img id="first"src="/ATTACK-ON-TITAN/images/img1.png" alt="1"></div>
+    
+</div>
+<div id="main2"><h1>Characters</h1><br>
+    <button class="icon" id="eren"><a href="https://fr.wikipedia.org/wiki/Eren_J%C3%A4ger"><img src="ATTACK-ON-TITAN/images/eren.webp" alt=""></a></button>
+    <button class="icon" id="mikasa"><a href="https://en.wikipedia.org/wiki/Mikasa_Ackerman"><img src="ATTACK-ON-TITAN/images/mikasa.webp" alt=""></a></button>
+    <button class="icon" id="jean"><a href="https://attackontitan.neoseeker.com/wiki/Jean_Kirstein"><img src="ATTACK-ON-TITAN/images/jean.webp" alt=""></a></button>
+    <button class="icon" id="levi"><a href="https://en.wikipedia.org/wiki/Levi_Ackerman"><img src="ATTACK-ON-TITAN/images/levi.webp" alt=""></a></button>
+    <button class="icon" id="hange"><a href="https://waifus.wiki/shingeki-no-kyojin/hange-zoe/"><img src="ATTACK-ON-TITAN/images/hange.webp" alt=""></a></button>
+</div>
+<div id="comments"> <h1>Leave your comment below</h1>
+    <input id="com" type="text"><button onclick="add()">add</button>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.js" integrity="sha256-7GO+jepT9gJe9LB4XFf8snVOjX3iYNb0FHYr5LI1N5c=" crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+</body>
+</html>

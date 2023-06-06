@@ -1,0 +1,87 @@
+body{
+    background-image: url(../ATTACK-ON-TITAN/images/wallpaper-register.jpg);
+    background-position-x: 49%;
+    background-position-y: 10%;
+}
+#info{
+    background-color: #808080c7;
+    position: absolute;
+    top: 23%;
+    left: 10%;
+    width: 300px;
+    height: 300px;
+    border-radius: 9px;
+}
+.infos , span{
+    border-radius: 9px;
+    margin-bottom: 27px;
+    margin-left: 68px;
+    height: 22px;
+    width: 166px;
+}
+span{
+    font-size: 15px;
+    font-family: monospace;
+    margin-left: 83px;
+}
+#Submit{
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #ffffff34;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000000;
+    text-shadow: none;
+    bottom: 6%;
+    left: 47%;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#Submit:hover {
+	background: #ffffff;
+	color: #000000;
+	border: 1px solid #ffffff;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #000000;
+	text-shadow: none;
+    scale: 1.25;
+}
+
+
+#scout{
+    background-color: #808080c7;
+    position: absolute;
+    top: 23%;
+    left: 45%;
+    width: 738px;
+    height: 300px;
+    border-radius: 9px;
+}
+#av1{
+    height: 200px;
+    width: 180px;
+}
+#av2 ,#av3{
+    height: 200px;
+    width: 180px;
+}
+#av1 ,#av2,#av3{
+    margin-left: 50px;
+    
+}
+h1{
+    margin-bottom: 0px;
+    text-align: center;
+}
+#scout1{
+    margin-left: 136px;
+}
+#scout2{
+    margin-left: 207px;
+}
+#scout3{
+    margin-left: 220px;
+
+}

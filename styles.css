@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+#head{
+    background-color: black;
+    background-image: url(ATTACK-ON-TITAN/images/nav-bar.webp);
+    background-repeat: round;
+    width: auto;
+    height: 174px;
+    margin: 10px;
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+}
+#container{   
+    top: 38%;
+    left: 33%;
+    position: sticky;
+    background-color: black;
+}
+#container ul {
+margin-left: -41px;
+margin-top: 0px;
+font-size: 16px;
+}
+
+
+
+
+.navbtt {
+    margin-left: 240px; 
+height: 20px;
+  /* padding: 25px 30px; */
+  background-color: #050801;
+  color: rgb(244 3 3 / 87%);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.navbtt:hover {
+  background: rgb(244 3 3 / 87%);
+  color: #050801;
+  box-shadow: 0 0 5px rgb(244 3 3 / 87%), 0 0 25px rgb(244 3 3 / 87%), 0 0 50px rgb(244 3 3 / 87%),
+    0 0 200px rgb(244 3 3 / 87%);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+
+#logo-name{
+    width: 331px;
+}
+#register{
+    position: absolute;
+    left: 76%;
+    top: 1%;
+    height: 100px;
+    width: 100px;
+}
+.login{
+    display: inline-block;
+    position: absolute;
+    left: 85%;
+    top: 6%;
+    width: 152px;
+    height: 132px;
+    
+}
+.login1{
+    display: none;
+    position: absolute;
+    left: 85%;
+    top: 6%;
+    width: 152px;
+    height: 132px;
+    background-color: white;
+}
+#main{
+    background-color: white;
+    height: 379px;
+    width: 1490px; 
+    margin-left: 20px;
+}
+#image{
+    position: relative;
+    left: 58%;
+    top: -70%;
+    height: 369px;
+    width: 536px;
+}
+#first{
+    height: 100%;
+    width: 100%;
+}
+#about{
+    display: inline;
+}
+#jj{
+    width: 629px;
+    display: table-caption;
+}
+#main2{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    height: 379px;
+    width: 1490px; 
+}
+.icon{
+    margin-left: 3%;
+    height: 90px;
+    width:90px
+}
+#comments{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    height: 379px;
+    width: 1490px; 
+}
